@@ -1,0 +1,47 @@
+#container {
+    min-height: 670px;
+    width: 100%;
+}
+
+canvas{
+    box-shadow:  0 0 5px black;
+}
+
+#view{
+    width: 100%;
+    min-height: 670px;
+    position: relative;
+    overflow: hidden;
+}
+
+#photoList{
+    position: absolute;
+    min-height: 670px;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    -webkit-transition : left 1s ease-in-out;
+    transition : left 1s ease-in-out;
+
+}
+
+#photoList li{
+    float:  left;
+    list-style-type:  none;
+    padding: 0;
+    margin: 0;
+}
+
+ #photoList li img{
+     display: block;
+     width: 60%;
+     margin: auto;
+     padding: 10px;
+     border: solid 1px #000000;
+     box-shadow: 10px 10px 10px black;
+ }
+
+
+
+
